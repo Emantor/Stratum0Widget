@@ -304,6 +304,40 @@
             </LinearLayout>
 
             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="?android:textAppearanceMedium"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:text="@string/settings_label_garmin" />
+
+                <TextView
+                    android:id="@+id/settingsGarminStatus"
+                    style="?android:textAppearanceMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    tools:text="Ok" />
+
+                <ImageView
+                    android:id="@+id/settingsGarminSetup"
+                    style="?android:buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_cached_black_24dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
                 style="?android:buttonBarStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

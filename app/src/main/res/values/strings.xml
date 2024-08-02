@@ -43,6 +43,7 @@
     <string name="settings_label_nick">Nick:</string>
     <string name="settings_label_ssh_key">Ssh Key:</string>
     <string name="settings_label_ssh_password">Ssh Pass:</string>
+    <string name="settings_label_garmin">Garmin:</string>
     <string name="settings_hint_password"><![CDATA[<password>]]></string>
 
     <string name="settings_ssh_status_ok">Configured</string>
