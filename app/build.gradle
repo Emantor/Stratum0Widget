@@ -54,6 +54,9 @@ dependencies {
     implementation "com.jakewharton.timber:timber:4.7.1"
     implementation 'androidx.annotation:annotation:1.4.0'
 
+    // used for garmin watch integration
+    implementation "com.garmin.connectiq:ciq-companion-app-sdk:2.0.3@aar"
+
     fcmImplementation 'com.google.firebase:firebase-messaging:23.0.7'
 }
 
